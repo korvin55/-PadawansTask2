@@ -8,7 +8,7 @@ namespace PadawansTask2
         {
             if ( count < 0)
             {
-                throw new NotImplementedException();
+                throw new ArgumentException();
             }
             int sum = 0;
             for (int step = 0; step < count; step++)
